@@ -11,11 +11,11 @@ from anaconda_verify.utils import all_ascii, memoized
 from anaconda_verify.common import (check_name, check_version, check_specs,
                                     check_build_number)
 
-PEDANTIC = True
+PEDANTIC = FALSE
 
 
 class RecipeError(Exception):
-    pass
+    
 
 
 def ns_cfg(cfg):
